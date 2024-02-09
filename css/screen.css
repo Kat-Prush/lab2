@@ -1,11 +1,13 @@
 body {
-    background-image: url('..images/starry_night.jpg');
+    background:#000 center/cover url("/images/starry_night.jpg");
   }
   
   header {
-    font-size: large;
+    font-family: 'Shrikhand';
+    font-size: xx-large;
     font-weight: bold;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 1rem;
   }
   
@@ -14,26 +16,27 @@ body {
   }
     
   form {
+    font-family: 'Shrikhand';
     margin: 0 auto;
     width: 75%;
     max-width: 400px;
     padding: 1rem;
-    border: 1px solid black;
     border-radius: 5px;
   }
   
   fieldset {
-    padding: 0;
     margin-bottom: 1rem;
   }
   
   legend {
+    font-family: 'Shrikhand';
     text-align: center;
     margin: 0 auto;
     font-weight: bold;
   }
   
   label {
+    margin-top: 10%;
     display: block;
     margin-bottom: 0.5rem;
   }
@@ -43,7 +46,7 @@ body {
     font-family: 'Shrikhand', sans-serif;
     padding: 5px 10px;
     width: 100%;
-    border-radius: 20px 20px;
+    box-shadow: 10px 10px rgb(159, 22, 171);
     box-sizing: border-box;
     margin-bottom: 1rem;
   }
@@ -51,7 +54,7 @@ body {
   button {
     background-color: #6355c9;
     color: black;
-    cursor: pointer;
+    cursor: progress;
   }
   
   @media (min-width: 768px) {
