@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/starry_night.jpg);
+    background-image: url('..images/starry_night.jpg');
   }
   
   header {
